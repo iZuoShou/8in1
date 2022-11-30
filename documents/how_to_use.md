@@ -229,13 +229,13 @@ systemctl disable trojan-go
 - 主目录
 
 ```
-/etc/v2ray-agent/xray
+/etc/8in1/xray
 ```
 
 - 配置文件目录
 
 ```
-/etc/v2ray-agent/xray/conf
+/etc/8in1/xray/conf
 ```
 
 ## v2ray-core
@@ -243,13 +243,13 @@ systemctl disable trojan-go
 - 主目录
 
 ```
-/etc/v2ray-agent/v2ray
+/etc/8in1/v2ray
 ```
 
 - 配置文件目录
 
 ```
-/etc/v2ray-agent/v2ray/conf
+/etc/8in1/v2ray/conf
 ```
 
 ## Trojan
@@ -257,7 +257,7 @@ systemctl disable trojan-go
 - 目录
 
 ```
-/etc/v2ray-agent/trojan
+/etc/8in1/trojan
 ```
 
 ## TLS证书
@@ -265,7 +265,7 @@ systemctl disable trojan-go
 - 目录
 
 ```
-/etc/v2ray-agent/tls
+/etc/8in1/tls
 ```
 
 ## Nginx
