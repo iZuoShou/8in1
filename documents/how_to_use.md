@@ -100,7 +100,7 @@
 
 脚本支持多用户管理，如果添加用户后相应的订阅也就产生多个
 
-<img src="https://raw.githubusercontent.com/izsiyy/8in1izsiyy/8in1/master/fodder/how_to_use/11.png" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/11.png" width=700>
 
 ### 3.更换伪站点
 
@@ -121,7 +121,7 @@
 - Netflix检测，检测vps是否支持Netflix解锁，脚本内置的可能不准确。
 - 任意门落地机解锁Netflix
 
-[详情请查看此文章](https://github.com/izsiyy/8in1izsiyy/8in1/blob/master/documents/netflix/dokodemo-unblock_netflix.md)
+[详情请查看此文章](https://github.com/izsiyy/8in1/blob/master/documents/netflix/dokodemo-unblock_netflix.md)
 
 <img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/12.png" width=700>
 
