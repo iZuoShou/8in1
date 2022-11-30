@@ -48,19 +48,19 @@
 
 这里会先读取上次安装时路径，如果没有读取到则会手动输入或者随机路径
 
-<img src="https://raw.githubusercontent.com/izsiyy/8in1izsiyy/8in1izsiyy/8in1izsiyy/8in1/master/fodder/how_to_use/04.png" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/04.png" width=700>
 
 ### 5.安装Xray/v2ray
 
 根据选择的内核进行安装，如果安装过则会提示是否更新或者升级
 
-<img src="https://raw.githubusercontent.com/izsiyy/8in1izsiyy/8in1izsiyy/8in1/master/fodder/how_to_use/05.png" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/05.png" width=700>
 
 ### 6.安装Trojan-Go
 
 如果安装时选择安装trojan协议或者全部安装，则这里会自动安装trojan-go核心，与上面相同如果安装过则会提示是否更新或者升级。
 
-<img src="https://raw.githubusercontent.com/izsiyy/8in1izsiyy/8in1/izsiyy/8in1izsiyy/8in1master/fodder/how_to_use/06.png" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/06.png" width=700>
 
 ### 7.添加智能DNS智能解析
 
