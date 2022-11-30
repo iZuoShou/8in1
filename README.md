@@ -1,19 +1,9 @@
 
-# 目录
 
-- [1.脚本安装](#1vlesstcptlsvlesswstlsvmesstcptlsvmesswstlstrojan-伪装站点-五合一共存脚本)
-    - [特性](#特性)
-    - [注意事项](#注意事项)
-    - [安装脚本](#安装脚本)
-
-* * *
-
-# 1.八合一共存脚本+伪装站点
-
-- [Cloudflare入门教程](https://github.com/izsiyy/8in1/blob/master/documents/cloudflare_init.md)
+# 1.8in1 共存脚本+伪装站点
 
 ## 特性
-- 支持[Xray-core[XTLS]](https://github.com/XTLS/Xray-core)、[v2ray-core](https://github.com/v2fly/v2ray-core)
+- 支持[Xray-core[XTLS]]、[v2ray-core]
 - 支持VLESS/Trojan前置[VLESS XTLS -> Trojan XTLS]、[Trojan XTLS -> VLESS XTLS]
 - 支持不同核心之间的配置文件互相读取
 - 支持 VLESS/VMess/trojan 协议
@@ -41,7 +31,7 @@
 
 - **修改Cloudflare->SSL/TLS->Overview->Full**
 - **Cloudflare ---> A记录解析的云朵必须为灰色【如非灰色，会影响到定时任务自动续签证书】**
-- **如用CDN又同时使用直连，关闭云朵+自选IP，自选IP参考上方的[Cloudflare 优化方案](https://github.com/izsiyy/8in1/blob/master/documents/optimize_V2Ray.md)**
+- **如用CDN又同时使用直连，关闭云朵+自选IP，自选IP(https://github.com/XIU2/CloudflareSpeedTest)**
 - **使用纯净系统安装，如使用其他脚本安装过并且自己无法修改错误，请重新安装系统后再次尝试安装**
 - wget: command not found [**这里需要自己手动安装下wget**]
   ，如未使用过Linux，[点击查看](https://github.com/izsiyy/8in1/tree/master/documents/install_tools.md)安装教程
@@ -50,12 +40,11 @@
 - **为了节约时间，反馈请带上详细截图或者按照模版规范，无截图或者不按照规范的issue会被直接关闭**
 - **不推荐GCP用户使用**
 - **不推荐使用Centos以及低版本的系统，如果Centos安装失败，请切换至Debian10重新尝试，脚本不再支持Centos6、Ubuntu 16.x**
-- **[如有使用不明白的地方请先查看脚本使用指南](https://github.com/izsiyy/8in1/blob/master/documents/how_to_use.md)**
 - **Oracle Cloud有一个额外的防火墙，需要手动设置**
 - **Oracle Cloud仅支持Ubuntu**
 - **如果使用gRPC通过cloudflare转发,需要在cloudflare设置允许gRPC，路径：cloudflare Network->gRPC**
 - **gRPC目前处于测试阶段，可能对你使用的客户端不兼容，如不能使用请忽略**
-- **低版本脚本升级高版本时无法启动问题，[请点击此链接查看解决方案](https://github.com/izsiyy/8in1/blob/master/documents/how_to_use.md#4%E4%BD%8E%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7%E9%AB%98%E7%89%88%E6%9C%AC%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E6%A0%B8%E5%BF%83)**
+
 
 ## [脚本使用指南](https://github.com/izsiyy/8in1/blob/master/documents/how_to_use.md)、[脚本目录](https://github.com/izsiyy/8in1/blob/master/documents/how_to_use.md#5脚本目录)
 
