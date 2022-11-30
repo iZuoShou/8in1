@@ -1,11 +1,4 @@
 
-- [Cloudflare 优化方案](https://github.com/izsiyy/8in1/blob/master/documents/optimize_V2Ray.md)
-- [流量中转](https://github.com/izsiyy/8in1/blob/master/documents/traffic_relay.md)
-- [手动自建教程](https://github.com/izsiyy/8in1/blob/master/documents/Cloudflare_install_manual.md)
-
-
-* * *
-
 # 目录
 
 - [1.脚本安装](#1vlesstcptlsvlesswstlsvmesstcptlsvmesswstlstrojan-伪装站点-五合一共存脚本)
