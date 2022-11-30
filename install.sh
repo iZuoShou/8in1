@@ -5431,16 +5431,13 @@ manageHysteria() {
 menu() {
 	cd "$HOME" || exit
 	echoContent red "\n=============================================================="
-	echoContent green "作者:izsiyy"
+	echoContent green "作者:丶左手"
 	echoContent green "当前版本:v2.6.12"
 	echoContent green "Github:https://github.com/izsiyy/8in1"
 	echoContent green "描述:八合一共存脚本\c"
 	showInstallStatus
 	echoContent red "\n=============================================================="
-	echoContent red "                        推广区                      "
-	echoContent green "AFF捐赠：https://github.com/izsiyy/8in1/blob/master/documents/donation_aff.md\n"
-	echoContent green "虚拟币捐赠：0xB08b731653515b083deE362fefFc45d5eb96c35d\n"
-	echoContent green "推广可联系TG：https://t.me/mackaff"
+	echoContent red "                 一步一步看清楚再操作                      "
 	echoContent red "=============================================================="
 	if [[ -n "${coreInstallType}" ]]; then
 		echoContent yellow "1.重新安装"
