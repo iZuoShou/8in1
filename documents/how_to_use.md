@@ -64,7 +64,7 @@
 
 ### 7.添加智能DNS智能解析
 
-如果选择y，则查看账号的时候 address是优选后的域名解析，则会出现address是脚本提供的域名，伪装域名或SNI或peer则是个人的域名，详情原理解析请查看[此文章](https://github.com/mack-a/v2ray-agent/blob/master/documents/optimize_V2Ray.md)，仅支持ws的传输方式
+如果选择y，则查看账号的时候 address是优选后的域名解析，则会出现address是脚本提供的域名，伪装域名或SNI或peer则是个人的域名，详情原理解析请查看[此文章](https://github.com/izsiyy/8in1/blob/master/documents/optimize_V2Ray.md)，仅支持ws的传输方式
 
 <img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/07.png" width=700>
 
@@ -137,12 +137,12 @@ netflix、bahamut、hulu、hbo、disney、bbc、4chan、fox、abema、dmm、nico
 ### 7.添加新端口
 不影响443端口的使用，查看账号时仅展示443端口的账号，支持多个端口的添加和删除。
 
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/how_to_use/14.png" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/14.png" width=700>
 
 ### 8.core管理
 支持核心的升级、回退、重启、打开、关闭，仅限xray、v2ray
 
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/how_to_use/15.png" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/15.png" width=700>
 
 
 ### 9.安装BBR、DD脚本
@@ -151,19 +151,19 @@ netflix、bahamut、hulu、hbo、disney、bbc、4chan、fox、abema、dmm、nico
 ### 10.查看日志
 默认关闭access日志，如果想要调试则需要打开。此日志会产生大量的访问记录，建议调试完后关闭。
 
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/how_to_use/16.png" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/16.png" width=700>
 
 ### 11.卸载脚本
 
 卸载脚本时会删除脚本产生的数据文件以及脚本本身，但是不会删除安装的linux命令，比如curl、wget、nginx等，会将当前安装的证书备份到【/tmp/v2ray-agent-tls】，重启后此文件消失。
 
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/how_to_use/17.png" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/how_to_use/17.png" width=700>
 
 # 3.常见错误处理
 
 ## 1.下载脚本失败
 
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/install/shell_error_01.jpg" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/install/shell_error_01.jpg" width=700>
 
 - 需要手动更改dns
 
@@ -181,7 +181,7 @@ nameserver 8.8.4.4
 
 - 请更换Debian或者Ubuntu
 
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/install/shell_error_02.jpg" width=700>
+<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/install/shell_error_02.jpg" width=700>
 
 ## 3.Debian8启动nginx失败
 
@@ -220,7 +220,7 @@ systemctl disable trojan-go
 
 ## 4.VLESS+WS+TLS、VMess+WS+TLS，如果套CF，开启CF的小云朵了，那么如果把域名给换成优选IP的话 小云朵需要关闭不?
 
-- [自选ip的情况下，不需要开启云朵](https://github.com/mack-a/v2ray-agent/blob/master/documents/optimize_V2Ray.md)
+- [自选ip的情况下，不需要开启云朵](https://github.com/izsiyy/8in1/blob/master/documents/optimize_V2Ray.md)
 
 # 5.脚本目录
 
