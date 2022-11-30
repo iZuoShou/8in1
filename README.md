@@ -1,18 +1,11 @@
-# 8in1
 
-> [感谢 JetBrains 提供的非商业开源软件开发授权](https://www.jetbrains.com/?from=8in1)
-
-> [Thanks for non-commercial open source development authorization by JetBrains](https://www.jetbrains.com/?from=8in1)
 
 > [English Version](https://github.com/izsiyy/8in1/blob/master/documents/en/README_EN.md)
 
 - [Cloudflare 优化方案](https://github.com/izsiyy/8in1/blob/master/documents/optimize_V2Ray.md)
 - [流量中转](https://github.com/izsiyy/8in1/blob/master/documents/traffic_relay.md)
 - [手动自建教程](https://github.com/izsiyy/8in1/blob/master/documents/Cloudflare_install_manual.md)
-- [ssh入门教程](https://www.8in1.com/2020-12-16-ssh%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)
 
-- [TG群](https://t.me/technologyshare)、[TG频道-更新通知](https://t.me/v2rayAgentChannel)、[博客地址](https://www.8in1.com/)
-- **请给个⭐支持一下**
 
 * * *
 
@@ -89,19 +82,13 @@
 
 ## [脚本使用指南](https://github.com/izsiyy/8in1/blob/master/documents/how_to_use.md)、[脚本目录](https://github.com/izsiyy/8in1/blob/master/documents/how_to_use.md#5脚本目录)
 
-## 捐赠
 
-[您可以使用我的AFF进行购买VPS捐赠-博客](https://www.8in1.com/%E6%82%A8%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E6%88%91%E7%9A%84AFF%E8%B4%AD%E4%B9%B0vps%E6%8D%90%E8%B5%A0)
-
-[您可以使用我的AFF进行购买VPS捐赠-Github](https://github.com/izsiyy/8in1/blob/master/documents/donation_aff.md)
-
-[支持通过虚拟币向我捐赠](https://github.com/izsiyy/8in1/blob/master/documents/donation.md)
 
 ## 安装脚本
 
 - 支持快捷方式启动，安装完毕后，shell输入【**vasma**】即可打开脚本，脚本执行路径[**/etc/8in1/install.sh**]
 
-- Latest Version【推荐】
+- Version【当前版本:v2.6.12】
 
 ```
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/izsiyy/8in1/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
@@ -117,10 +104,4 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/izsiy
 
 <img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/install/install.jpg" width=700>
 
-# 许可证
 
-[AGPL-3.0](https://github.com/izsiyy/8in1/blob/master/LICENSE)
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/izsiyy/8in1.svg)](https://starchart.cc/izsiyy/8in1)
