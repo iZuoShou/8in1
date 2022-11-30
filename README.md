@@ -1,7 +1,4 @@
 
-
-> [English Version](https://github.com/izsiyy/8in1/blob/master/documents/en/README_EN.md)
-
 - [Cloudflare 优化方案](https://github.com/izsiyy/8in1/blob/master/documents/optimize_V2Ray.md)
 - [流量中转](https://github.com/izsiyy/8in1/blob/master/documents/traffic_relay.md)
 - [手动自建教程](https://github.com/izsiyy/8in1/blob/master/documents/Cloudflare_install_manual.md)
@@ -46,19 +43,6 @@
 - Trojan+gRPC+TLS【支持CDN、IPv6、延迟低】
 - VMess+WS+TLS【支持CDN、IPv6】
 
-## 线路推荐
-
-- [CN2 GIA](https://github.com/izsiyy/8in1/blob/master/documents/donation_aff.md#1cn2-gia)
-- 上海CN2+HK
-- [AS9929](https://github.com/izsiyy/8in1/blob/master/documents/donation_aff.md#2%E8%81%94%E9%80%9A-as9929a%E7%BD%91)
-- [AS4837](https://github.com/izsiyy/8in1/blob/master/documents/donation_aff.md#3%E8%81%94%E9%80%9A-as4837%E6%99%AE%E9%80%9A%E6%B0%91%E7%94%A8%E7%BD%91)
-- [联通日本软银](https://github.com/izsiyy/8in1/blob/master/documents/donation_aff.md#4%E8%81%94%E9%80%9A-%E6%97%A5%E6%9C%AC%E8%BD%AF%E9%93%B6)
-- 联通+台湾TFN
-- 联通+NTT
-- 广移/珠移+HKIX/CMI/NTT
-- 广移/CN2+Cloudflare+全球
-- 广移/CN2/南联+香港AZ+全球
-- 中转+cloudflare+落地机【可拉全球】
 
 ## 注意事项
 
