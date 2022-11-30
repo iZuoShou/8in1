@@ -5,7 +5,7 @@ mkdir -p /etc/8in1/tls
 ```
 ## 2.将证书放到指定目录并修改名称
 >下方的domain为要安装的域名
-- 1.移动证书和私钥到/etc/v2ray-agent/tls下
+- 1.移动证书和私钥到/etc/8in1/tls下
 - 2.修改文件名称
 ```
 xxx.key --> domain.key
