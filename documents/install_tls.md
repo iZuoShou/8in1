@@ -1,7 +1,7 @@
 # 使用现有的证书进行脚本安装
 ## 1.创建目录
 ```
-mkdir -p /etc/v2ray-agent/tls
+mkdir -p /etc/8in1/tls
 ```
 ## 2.将证书放到指定目录并修改名称
 >下方的domain为要安装的域名
