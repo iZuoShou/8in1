@@ -66,8 +66,5 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/izsiy
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/izsiyy/8in1/dev_ss/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 
-# 示例图
-
-<img src="https://raw.githubusercontent.com/izsiyy/8in1/master/fodder/install/install.jpg" width=700>
 
 
