@@ -41,8 +41,7 @@
 - **为了节约时间，反馈请带上详细截图或者按照模版规范，无截图或者不按照规范的issue会被直接关闭**
 - **不推荐GCP用户使用**
 - **不推荐使用Centos以及低版本的系统，如果Centos安装失败，请切换至Debian10重新尝试，脚本不再支持Centos6、Ubuntu 16.x**
-- **Oracle Cloud有一个额外的防火墙，需要手动设置**
-- **Oracle Cloud仅支持Ubuntu**
+- **Oracle Cloud有一个额外的防火墙，需要手动设置，懒得设置就直接ufw disable**
 - **如果使用gRPC通过cloudflare转发,需要在cloudflare设置允许gRPC，路径：cloudflare Network->gRPC**
 - **gRPC目前处于测试阶段，可能对你使用的客户端不兼容，如不能使用请忽略**
 
