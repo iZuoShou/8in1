@@ -4101,7 +4101,7 @@ EOF
 # 脚本快捷方式
 aliasInstall() {
 
-	if [[ -f "$HOME/install.sh" ]] && [[ -d "/etc/8in1" ]] && grep <"$HOME/install.sh" -q "作者:izsiyy"; then
+	if [[ -f "$HOME/install.sh" ]] && [[ -d "/etc/8in1" ]] && grep <"$HOME/install.sh" -q "作者:Aries"; then
 		mv "$HOME/install.sh" /etc/8in1/install.sh
 		local vasmaType=
 		if [[ -d "/usr/bin/" ]]; then
@@ -5431,7 +5431,7 @@ manageHysteria() {
 menu() {
 	cd "$HOME" || exit
 	echoContent red "\n=============================================================="
-	echoContent green "作者:丶左手"
+	echoContent green "作者:Aries"
 	echoContent green "当前版本:v2.6.12"
 	echoContent green "Github:https://github.com/izsiyy/8in1"
 	echoContent green "描述:八合一共存脚本\c"
