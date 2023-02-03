@@ -1,7 +1,7 @@
 
 
 #  8in1 共存脚本+伪装站点
-   脚本原作者mack-a已经删库，我进行修改后自用，在此感谢原作者。
+   原作者已回，此版本自用。
 
 ## 特性
 - 支持[Xray-core[XTLS]]、[v2ray-core]
@@ -60,11 +60,6 @@
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/izsiyy/8in1/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 
-- shadowsocks 动态IP白名单模式【Beta】
-
-```
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/izsiyy/8in1-original/dev_ss/install.sh" && chmod 700 /root/install.sh && /root/install.sh
-```
 
 
 
