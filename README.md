@@ -57,7 +57,7 @@
 - Version【当前版本:v2.6.12】
 
 ```
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/izsiyy/8in1/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/iZuoShou/8in1/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 
 
