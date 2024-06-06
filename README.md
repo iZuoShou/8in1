@@ -9,12 +9,12 @@
 - 支持不同核心之间的配置文件互相读取
 - 支持 VLESS/VMess/trojan 协议
 - 支持Debian、Ubuntu、Centos系统，支持主流的cpu架构。
-- 支持任意组合安装、支持多用户管理、支持DNS流媒体解锁、支持添加多端口、[支持任意门解锁Netflix](https://github.com/izsiyy/8in1/blob/master/documents/netflix/dokodemo-unblock_netflix.md)
+- 支持任意组合安装、支持多用户管理、支持DNS流媒体解锁、支持添加多端口、[支持任意门解锁Netflix](https://github.com/iZuoShou/8in1/blob/master/documents/netflix/dokodemo-unblock_netflix.md)
 - 支持卸载后保留tls证书
-- 支持IPv6，[IPv6注意事项](https://github.com/izsiyy/8in1/blob/master/documents/ipv6_help.md)
+- 支持IPv6，[IPv6注意事项](https://github.com/iZuoShou/8in1/blob/master/documents/ipv6_help.md)
 - 支持WARP分流、IPv6分流
 - 支持BT下载管理、日志管理、域名黑名单管理、核心管理、伪装站点管理
-- [支持自定义证书安装](https://github.com/izsiyy/8in1/blob/master/documents/install_tls.md)
+- [支持自定义证书安装](https://github.com/iZuoShou/8in1/blob/master/documents/install_tls.md)
 
 ## 支持的安装类型
 
@@ -35,7 +35,7 @@
 - **如用CDN又同时使用直连，关闭云朵+自选IP，自选IP(https://github.com/XIU2/CloudflareSpeedTest)**
 - **使用纯净系统安装，如使用其他脚本安装过并且自己无法修改错误，请重新安装系统后再次尝试安装**
 - wget: command not found [**这里需要自己手动安装下wget**]
-  ，如未使用过Linux，[点击查看](https://github.com/izsiyy/8in1/tree/master/documents/install_tools.md)安装教程
+  ，如未使用过Linux，[点击查看](https://github.com/iZuoShou/8in1/tree/master/documents/install_tools.md)安装教程
 - 不支持非root账户
 - **如发现Nginx相关问题，请卸载掉自编译的nginx或者重新安装系统**
 - **为了节约时间，反馈请带上详细截图或者按照模版规范，无截图或者不按照规范的issue会被直接关闭**
@@ -46,7 +46,7 @@
 - **gRPC目前处于测试阶段，可能对你使用的客户端不兼容，如不能使用请忽略**
 
 
-## [脚本使用指南](https://github.com/izsiyy/8in1/blob/master/documents/how_to_use.md)、[脚本目录](https://github.com/izsiyy/8in1/blob/master/documents/how_to_use.md#5脚本目录)
+## [脚本使用指南](https://github.com/iZuoShou/8in1/blob/master/documents/how_to_use.md)、[脚本目录](https://github.com/iZuoShou/8in1/blob/master/documents/how_to_use.md#5脚本目录)
 
 
 
