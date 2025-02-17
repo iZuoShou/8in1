@@ -5430,13 +5430,13 @@ manageHysteria() {
 # 主菜单
 menu() {
 	cd "$HOME" || exit
+ 	echoContent red "\n=============================================================="
+	echoContent red "                 一步一步看清楚再操作                      "
 	echoContent red "\n=============================================================="
  	showInstallStatus
- 	echoContent green "描述:八合一共存脚本  当前版本:v2.6.12   作者:Aries"
-	echoContent green "Github:https://github.com/iZuoShou/8in1"
+ 	echoContent green "     描述:八合一共存脚本  当前版本:v2.6.12  修改：Aries"
+	echoContent green "        Github:https://github.com/iZuoShou/8in1"
 	showInstallStatus
-	echoContent red "\n=============================================================="
-	echoContent red "                 一步一步看清楚再操作                      "
 	echoContent red "=============================================================="
 	if [[ -n "${coreInstallType}" ]]; then
 		echoContent yellow "1.重新安装"
