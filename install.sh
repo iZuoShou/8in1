@@ -5430,9 +5430,9 @@ manageHysteria() {
 # 主菜单
 menu() {
 	cd "$HOME" || exit
-	echoContent red "\n=============================================================="
+	echoContent red "\n==============================================================
+ 	echoContent green "描述:八合一共存脚本  当前版本:v2.6.12   作者:Aries""
 	echoContent green "Github:https://github.com/iZuoShou/8in1"
-	echoContent green "描述:八合一共存脚本\c   当前版本:v2.6.12   作者:Aries"
 	showInstallStatus
 	echoContent red "\n=============================================================="
 	echoContent red "                 一步一步看清楚再操作                      "
