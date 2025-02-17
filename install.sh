@@ -1222,7 +1222,7 @@ acmeInstallSSL() {
 		txtValue=$(tail -n 10 /etc/8in1/tls/acme.log | grep "TXT value" | awk -F "'" '{print $2}')
 		if [[ -n "${txtValue}" ]]; then
 			echoContent green " ---> 请手动添加DNS TXT记录"
-			echoContent yellow " ---> 添加方法请参考此教程，https://github.com/izsiyy/8in1/blob/master/documents/dns_txt.md"
+			echoContent yellow " ---> 添加方法请参考此教程，https://github.com/iZuoShou/8in1/blob/master/documents/dns_txt.md"
 			echoContent yellow " ---> 如同一个域名多台机器安装通配符证书，请添加多个TXT记录，不需要修改以前添加的TXT记录"
 			echoContent green " --->  name：_acme-challenge"
 			echoContent green " --->  value：${txtValue}"
@@ -3076,7 +3076,7 @@ customCDNIP() {
 	echoContent red "\n=============================================================="
 	echoContent yellow "# 注意事项"
 	echoContent yellow "\n教程地址:"
-	echoContent skyBlue "https://github.com/izsiyy/8in1/blob/master/documents/optimize_V2Ray.md"
+	echoContent skyBlue "https://github.com/iZuoShou/8in1/blob/master/documents/optimize_V2Ray.md"
 	echoContent red "\n如对Cloudflare优化不了解，请不要使用"
 	echoContent yellow "\n 1.移动:104.16.123.96"
 	echoContent yellow " 2.联通:www.cloudflare.com"
@@ -4537,7 +4537,7 @@ dokodemoDoorUnblockStreamingMedia() {
 	echoContent skyBlue "\n功能 1/${totalProgress} : 任意门落地机解锁流媒体"
 	echoContent red "\n=============================================================="
 	echoContent yellow "# 注意事项"
-	echoContent yellow "任意门解锁详解，请查看此文章[https://github.com/izsiyy/8in1/blob/master/documents/netflix/dokodemo-unblock_netflix.md]\n"
+	echoContent yellow "任意门解锁详解，请查看此文章[https://github.com/iZuoShou/8in1/blob/master/documents/netflix/dokodemo-unblock_netflix.md]\n"
 
 	echoContent yellow "1.添加出站"
 	echoContent yellow "2.添加入站"
@@ -5431,10 +5431,8 @@ manageHysteria() {
 menu() {
 	cd "$HOME" || exit
 	echoContent red "\n=============================================================="
-	echoContent green "作者:Aries"
-	echoContent green "当前版本:v2.6.12"
-	echoContent green "Github:https://github.com/izsiyy/8in1"
-	echoContent green "描述:八合一共存脚本\c"
+	echoContent green "Github:https://github.com/iZuoShou/8in1"
+	echoContent green "描述:八合一共存脚本\c   当前版本:v2.6.12   作者:Aries"
 	showInstallStatus
 	echoContent red "\n=============================================================="
 	echoContent red "                 一步一步看清楚再操作                      "
